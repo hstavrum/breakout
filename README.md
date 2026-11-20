@@ -13,6 +13,8 @@ Klassisk breakout spill med C# and Raylib-cs 8.1.0.
 
 Each brick is worth 100 points and makes the ball a little faster. When the ball drops below the playfield, you lose a life and keep your score, remaining bricks, and current ball speed. Move the paddle between serves to choose where to launch the ball. Starting a fresh round resets the speed.
 
+![Breakout](breakout.png)
+
 ## Build and run from source
 
 Install the .NET 10 SDK on 64-bit Windows. Open PowerShell in the repository folder containing `Breakout.csproj`. Run these commands to restore the Raylib-cs NuGet package, compile the game, and launch the Debug build.
